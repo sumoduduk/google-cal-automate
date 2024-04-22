@@ -3,7 +3,7 @@ import { getTimeFormat } from "../lib/util-time";
 import fs from "fs";
 
 export function genEvent() {
-  const data = fs.readFileSync("event_func/events.json", "utf8");
+  const data = fs.readFileSync("event-tomorrow.json", "utf8");
   let time_schedules = JSON.parse(data);
 
   function splitHourMinute(time_str: string) {

@@ -8,9 +8,20 @@ type TimeStartEnd = {
   timeZone: string;
 };
 
+type MethodType = {
+  method: string;
+  minutes: number;
+};
+
+type RemindersType = {
+  useDefault: boolean;
+  overrides: Array<MethodType>;
+};
+
 export type EventType = {
   summary: string;
   description: string;
   start: TimeStartEnd;
   end: TimeStartEnd;
+  reminders: RemindersType;
 };

@@ -25,3 +25,8 @@ export type EventType = {
   end: TimeStartEnd;
   reminders: RemindersType;
 };
+
+export type ScheduleFeedT = {
+  date: number;
+  schedule: string[];
+};

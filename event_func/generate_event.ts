@@ -8,7 +8,7 @@ function splitHourMinute(time_str: string) {
 }
 
 export function genEvent() {
-  const data = fs.readFileSync("ev_schedule.json", "utf8");
+  const data = fs.readFileSync("event-tommorow.json", "utf8");
   let time_schedules = JSON.parse(data) as Array<ScheduleFeedT>;
 
   const schedules_arr: Array<EventType> = [];

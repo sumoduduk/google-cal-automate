@@ -7,8 +7,6 @@ const email = process.env.GCALENDAR_EMAIL as string;
 const key = process.env.GCALENDAR_PRIVATE_KEY as string;
 const formated_key = key.replaceAll(`"`, ``).replaceAll(`\\n`, `\n`);
 
-export const TIMEZONE = "Asia/Jakarta";
-
 const auth = {
   email,
   key: formated_key,

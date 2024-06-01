@@ -12,6 +12,6 @@ const auth = {
   key: formated_key,
 };
 
-const events = genEvent();
+const events = genEvent("event-tommorow.json");
 
 insert_event(auth, events);

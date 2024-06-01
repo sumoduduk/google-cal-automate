@@ -1,0 +1,18 @@
+[
+    {
+        "date": 9,
+        "schedule": [
+            "08:00&?09:30 &? Fixing Bug on OneClickIndex  &? Fix Desktop SaaS App Bug",
+            "09:30&?11:00 &? Porting Portfolio App &? Port to New Framework",
+            "21:00&?23:00 &? Social Media Content  &? Write and Prepare Posts"
+        ]
+    },
+    {
+        "date": 10,
+        "schedule": [
+            "08:00&?09:30 &? Fixing Bug on OneClickIndex  &? Fix Desktop SaaS App Bug",
+            "09:30&?11:00 &? Porting Portfolio App &? Port to New Framework",
+            "21:00&?23:00 &? Social Media Content  &? Write and Prepare Posts"
+        ]
+    }
+]
